@@ -1,0 +1,14 @@
+07:44:56 **** Rebuild of configuration Debug for project ex4 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c:9:6: warning: return type of 'main' is not 'int' [-Wmain]
+ void main()
+      ^~~~
+..\main.c: In function 'main':
+..\main.c:17:10: warning: too many arguments for format [-Wformat-extra-args]
+   printf("you entered zero ",num);
+          ^~~~~~~~~~~~~~~~~~~
+gcc -o ex4.exe main.o 
+
+07:44:56 Build Finished. 0 errors, 2 warnings. (took 409ms)
+

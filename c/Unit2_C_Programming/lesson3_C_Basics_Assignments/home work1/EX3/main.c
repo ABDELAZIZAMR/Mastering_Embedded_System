@@ -1,0 +1,21 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 26, 2022
+ *      Author: Abdelaziz Amr
+ */
+#include"stdio.h"
+int main()
+{
+	int a ,b,sum;
+	printf("##########Console-output###\n");
+	printf("Enter two integer: ");
+	fflush(stdout);
+	fflush(stdin);
+	scanf("%d",&a);
+	scanf("%d",&b);
+	sum=a+b;
+	printf("sum :%d \n",sum);
+	printf("###########################");
+
+}

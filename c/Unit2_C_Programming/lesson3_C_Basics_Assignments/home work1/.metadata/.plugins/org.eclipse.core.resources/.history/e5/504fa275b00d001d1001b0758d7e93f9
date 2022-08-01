@@ -1,0 +1,29 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 26, 2022
+ *      Author: Abdelaziz Amr
+ */
+/*#include"stdio.h"
+int main()
+{
+	int a ,b,sum;
+	printf("##########Console-output###\n");
+	printf("c programming \n");
+	printf("###########################");
+
+}*/
+#include "stdio.h"
+int main()
+{
+	float a,b;
+	printf("#########Console_output######\n");
+	printf("Enter value of a : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%f\n",&a);
+	printf("Enter value of b : ");
+	scanf("%f\n",&b);
+	printf("After swapping, value of a = %f",b);
+	printf("After swapping, value of a = %f",a);
+	printf("#############################");
+}

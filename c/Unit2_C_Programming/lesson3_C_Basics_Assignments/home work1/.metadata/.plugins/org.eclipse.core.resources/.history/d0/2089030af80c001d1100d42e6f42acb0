@@ -1,0 +1,20 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 26, 2022
+ *      Author: Abdelaziz Amr
+ */
+#include "stdio.h"
+void main(){
+	char a ;
+	printf("##########Console-output###\n");
+	printf("Enter a character :");
+	fflush(stdout);
+	fflush(stdin);
+	scanf("%c",&a);
+	printf("ASCII value of '%c' = \n",'a');
+	printf("###########################");
+
+
+}
+

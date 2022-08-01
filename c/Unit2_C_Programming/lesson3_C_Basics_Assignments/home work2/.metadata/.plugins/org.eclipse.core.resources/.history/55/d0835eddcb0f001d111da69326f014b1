@@ -1,0 +1,45 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 30, 2022
+ *      Author: Abdelaziz Amr
+ */
+#include"stdio.h"
+void main(){
+	float a,b,result;
+	char c;
+	printf("Enter operator either + or - or * or / :  ");
+	fflush(stdin);fflush(stdout);
+	scanf("%c",&c);
+	printf("Enter tow operands:");
+	fflush(stdin); fflush(stdout);
+	scanf("%f",&a);
+	scanf("%f",&b);
+	switch (c){
+	case  '-':
+	{
+		result = a-b;
+	    printf("0.2%f - 0.2%f = %f",a,b,result);
+	}
+	break;
+	case  '+':
+	{
+		result = a+b;
+		printf("0.2%f + 0.2%f = %f",a,b,result);
+	}
+	break;
+	case  '*':
+	{
+				result = a*b;
+		printf("0.2%f * 0.2%f = %f",a,b,result);
+	}
+	break;
+	case  '/':
+	{
+				result = a/b;
+		printf("0.2%f / 0.2%f = %f",a,b,result);
+	}
+	break;
+
+	}
+}

@@ -1,0 +1,47 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 26, 2022
+ *      Author: Abdelaziz Amr
+ */
+/*#include"stdio.h"
+void main()
+{
+	int a ,b,sum;
+	printf("##########Console-output###\n");
+	printf("Enter a integer: ");
+	fflush(stdout);
+	fflush(stdin);
+	scanf("%d",&a);
+	printf("You entered:%d\n",a);
+	printf("###########################");
+
+}*/
+#include "stdio.h"
+int main()
+{
+	/*printf("#########Console_output######\n");
+	float a,b;
+	printf("Enter value of a : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%f\n",&a);
+	printf("Enter value of b : ");
+	fflush(stdin);fflush(stdout);
+	scanf("%f\n",&b);
+	printf("After swapping, value of a = %f\n",b);
+	printf("After swapping, value of b = %f\n",a);
+	printf("#############################");*/
+	float n1 = 0 , n2 = 0 , temp ;
+		printf("Enter value of a : ") ;
+		fflush(stdin) ; fflush(stdout) ;
+		scanf("%f",&n1) ;
+		printf("Enter value of b : ") ;
+		fflush(stdin) ; fflush(stdout) ;
+		scanf("%f",&n2) ;
+		temp = n1 ;
+		n1 = n2 ;
+		n2 = temp ;
+		printf("After swapping, value of a = %f \n",n1);
+		printf("After swapping, value of b = %f \n",n2);
+		printf("\n###########################");
+}

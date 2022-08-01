@@ -1,0 +1,22 @@
+/*
+ * main.c
+ *
+ *  Created on: Jul 27, 2022
+ *      Author: Abdelaziz Amr
+ */
+#include"stdio.h"
+void main(){
+	char alpha ;
+	char a[6]= {'a','e','i','o','u','\0'};
+	printf("Enter an alphabet:");
+	fflush(stdin);fflush(stdout);
+	scanf("%c",&alpha);
+	if(alpha = a){
+		printf("%c is a vowel.",alpha);
+	}
+	 else if (alpha != a){
+		printf("%c is a consonant.",alpha);
+	 }
+}
+
+
