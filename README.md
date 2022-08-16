@@ -1,1 +1,1 @@
-my first assignment in c
+ assignment in c
