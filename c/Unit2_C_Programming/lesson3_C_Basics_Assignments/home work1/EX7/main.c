@@ -1,25 +1,24 @@
 /*
  * main.c
  *
- *  Created on: Jul 26, 2022
+ *  Created on: Mar 16, 2024
  *      Author: Abdelaziz Amr
  */
 
-#include "stdio.h"
-int main()
-{
-	printf("#########Console_output######\n");
-		float a,b,temp;
-		printf("Enter value of a : ");
-		fflush(stdin); fflush(stdout);
-		scanf("%f",&a);
-		printf("Enter value of b : ");
-		fflush(stdin); fflush(stdout);
+
+#include <stdio.h>
+int main(){
+	float a,b;
+	printf("Enter value of a : ");
+	fflush(stdout); fflush(stdin);
+	scanf("%f",&a);
+	printf("Enter value of b : ");
+		fflush(stdout); fflush(stdin);
 		scanf("%f",&b);
-		a=a+b;
-		b=a-b;
-		a=a-b;
-		printf("After swapping, value of a = %f \n",a);
-		printf("After swapping, value of b = %f \n",b);
-		printf("#############################");
+	a+=b;
+	b=a-b;
+	a-=b;
+	printf("After Swappin, value of a : %0.2f \n",a);
+	printf("After Swappin, value of b : %0.2f \n",b);
+
 }
